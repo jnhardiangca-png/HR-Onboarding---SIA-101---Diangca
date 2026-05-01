@@ -2,48 +2,45 @@ module.exports = {
   employees: [
     {
       id: 1,
-      name: "Juan Dela Cruz",
-      position: "HR Manager",
-      department: "Human Resources",
-      email: "juan.delacruz@email.com"
+      name: "John Doe",
+      position: "Frontend Developer",
+      department: "Engineering",
+      email: "john.doe@hrflow.com",
+      status: "Active"
     },
     {
       id: 2,
-      name: "Maria Santos",
-      position: "Software Developer",
-      department: "IT",
-      email: "maria.santos@email.com"
+      name: "Sarah Lee",
+      position: "HR Manager",
+      department: "Human Resources",
+      email: "sarah.lee@hrflow.com",
+      status: "Active"
     },
     {
       id: 3,
-      name: "John Reyes",
-      position: "UI/UX Designer",
-      department: "Design",
-      email: "john.reyes@email.com"
+      name: "Michael Chen",
+      position: "Sales Executive",
+      department: "Sales",
+      email: "michael.chen@hrflow.com",
+      status: "Pending"
     },
     {
       id: 4,
-      name: "Anna Lim",
-      position: "Marketing Specialist",
-      department: "Marketing",
-      email: "anna.lim@email.com"
+      name: "Emily Davis",
+      position: "UI/UX Designer",
+      department: "Engineering",
+      email: "emily.davis@hrflow.com",
+      status: "Active"
     },
     {
       id: 5,
-      name: "Mark Garcia",
-      position: "System Analyst",
-      department: "IT",
-      email: "mark.garcia@email.com"
-    },
-    {
-      id: 6,
-      name: "Sofia Cruz",
-      position: "Accountant",
-      department: "Finance",
-      email: "sofia.cruz@email.com"
+      name: "David Brown",
+      position: "Marketing Specialist",
+      department: "Marketing",
+      email: "david.brown@hrflow.com",
+      status: "Inactive"
     }
   ],
-
   workflows: [
     {
       id: 101,
