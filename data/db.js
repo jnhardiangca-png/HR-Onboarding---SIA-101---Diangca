@@ -51,17 +51,21 @@ module.exports = {
   approvals: [
     {
       id: 301,
-      taskId: 201,
-      approvedBy: "HR Manager",
+      type: "Leave Request",
+      submittedBy: "HR Manager",
+      description: "Vacation leave request",
+      date: "2026-05-01",
       status: "Approved"
     },
     {
       id: 302,
-      taskId: 202,
-      approvedBy: "IT Head",
+      type: "Promotion",
+      submittedBy: "IT Head",
+      description: "Promotion approval request",
+      date: "2026-05-02",
       status: "Pending"
     }
-  ],
+  ]
 
   logs: [
     {
